@@ -1,0 +1,59 @@
+{
+  "strategy_name": "MacheteV8b",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 1
+    },
+    "buy": {
+      "buy_should_use_get_buy_signal_adx_momentum": false,
+      "buy_should_use_get_buy_signal_adx_smas": true,
+      "buy_should_use_get_buy_signal_asdts_rockwelltrading": false,
+      "buy_should_use_get_buy_signal_averages_strategy": false,
+      "buy_should_use_get_buy_signal_awesome_macd": true,
+      "buy_should_use_get_buy_signal_fisher_hull": false,
+      "buy_should_use_get_buy_signal_gettin_moist": true,
+      "buy_should_use_get_buy_signal_hlhb": true,
+      "buy_should_use_get_buy_signal_macd_strategy": false,
+      "buy_should_use_get_buy_signal_macd_strategy_crossed": true,
+      "buy_should_use_get_buy_signal_pmax": true,
+      "buy_should_use_get_buy_signal_quickie": true,
+      "buy_should_use_get_buy_signal_scalp": true,
+      "buy_should_use_get_buy_signal_simple": true,
+      "buy_should_use_get_buy_signal_strategy001": false,
+      "buy_should_use_get_buy_signal_technical_example_strategy": true,
+      "buy_should_use_get_buy_signal_tema_rsi_strategy": true
+    },
+    "sell": {
+      "cstp_bail_how": "time",
+      "cstp_bail_roc": -0.044,
+      "cstp_bail_time": 722,
+      "cstp_bb_trailing_input": "bb_lowerband_trend_inf",
+      "cstp_threshold": -0.028,
+      "cstp_trailing_max_stoploss": 0.03,
+      "cstp_trailing_only_offset_is_reached": 0.028,
+      "cstp_trailing_stop_profit_devider": 4,
+      "droi_pullback": true,
+      "droi_pullback_amount": 0.007,
+      "droi_pullback_respect_table": false,
+      "droi_trend_type": "any"
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.299,
+      "117": 0.164,
+      "238": 0.061,
+      "587": 0
+    },
+    "stoploss": {
+      "stoploss": -0.023
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2024-03-05 14:23:50.794353+00:00"
+}
